@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function suma(){
+        let a,b,c;
+        a=4;
+        b=5;
+        c=a+b;
+        document.getElementById('a').innerHTML=a;
+        document.getElementById('b').innerHTML=b;
+        document.getElementById('total').innerHTML=c;
+    }
+    </script>
+    <script>
+        function resta(){
+        let a,b,c;
+        a=4;
+        b=5;
+        c=a-b;
+        document.getElementById('a').innerHTML=a;
+        document.getElementById('b').innerHTML=b;
+        document.getElementById('total').innerHTML=c;
+    }
+    </script>
+    <script>
+        function multiplicacion(){
+        let a,b,c;
+        a=4;
+        b=5;
+        c=a*b;
+        document.getElementById('a').innerHTML=a;
+        document.getElementById('b').innerHTML=b;
+        document.getElementById('total').innerHTML=c;
+    }
+    </script>
+    <script>
+        function division(){
+        let a,b,c;
+        a=4;
+        b=5;
+        c=a/b;
+        document.getElementById('a').innerHTML=a;
+        document.getElementById('b').innerHTML=b;
+        document.getElementById('total').innerHTML=c;
+    }
+    </script>
+</head>
+<body>
+    <p id="a"></p>
+    <p id="b"></p>
+    <p id="total"></p>
+    <button type="button" onclick="suma()">Suma</button>
+    <button type="button" onclick="resta()">resta</button>
+    <button type="button" onclick="multiplicacion()">multiplicacion</button>
+    <button type="button" onclick="division()">division</button>
+</body>
+</html>
